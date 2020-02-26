@@ -2,6 +2,8 @@
 
 Just a joke site from Chuck Norris;)
 
+![Screen of NORRIS](https://github.com/cestoliv/norris/blob/master/res/imgs/screen1.png?raw=true)
+
 ## Getting started
 
 Made with NodeJs and Docker, uses socket.io...
