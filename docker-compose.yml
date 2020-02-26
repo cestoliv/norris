@@ -1,0 +1,11 @@
+version: '3'
+services:
+  norris:
+    container_name: "norris"
+    restart: always
+    build: .
+    ports:
+     - "8095:80"
+    volumes:
+      - './res:/app/res'
+      - './views:/app/views'

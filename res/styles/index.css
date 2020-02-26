@@ -1,0 +1,58 @@
+html {
+    display: flex;
+    min-height: 97vh;
+    align-items: center;
+    background: #0d0d0d;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    max-width: 25em;
+}
+
+#jokeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    min-height: 10em;
+}
+
+#jokeDiv img {
+    width: 5em;
+    height: 5em;
+}
+
+#joke {
+    color: #e2c6b1ff;
+    font-family: monospace;
+    font-size: 1.3em;
+    height: 100%;
+    margin-left: 20px;
+}
+
+#new_joke {
+    background: #d2722bff;
+    border: none;
+    border-radius: 5px;
+    color: #e2c6b1ff;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.9em;
+    transition: all .3s;
+}
+
+#new_joke:hover {
+    background: #e2c6b1ff;
+    color: #d2722bff;
+}
+
+#chuckSign {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 10em;
+}
